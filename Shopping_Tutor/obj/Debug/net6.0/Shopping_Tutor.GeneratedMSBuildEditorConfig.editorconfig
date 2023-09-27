@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Workspace/ASP.NET/asp.net/Shopping_Tutor/Shopping_Tutor/Views/Brand/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQnJhbmRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Workspace/ASP.NET/asp.net/Shopping_Tutor/Shopping_Tutor/Views/Cart/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
