@@ -12,7 +12,7 @@
             <div class="col-sm-4">
                 <div class="product-image-wrapper">
                     <div class="single-products">
-                        <a>
+                        <a asp-action="Details" asp-controller="Product" asp-route-Id="@item.Id">
                         <div class="productinfo text-center">
                             <img src="~/images/@item.Image" alt="@item.Name" width="100%" />
                             <h2>$@item.Price</h2>
