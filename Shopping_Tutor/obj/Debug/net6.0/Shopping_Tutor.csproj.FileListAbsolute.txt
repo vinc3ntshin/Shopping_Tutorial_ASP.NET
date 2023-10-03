@@ -66,3 +66,4 @@ D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\bin\Debug\net6.0\runt
 D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\obj\Debug\net6.0\Shopping_Tutor.csproj.CopyComplete
+D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\bin\Debug\net6.0\Newtonsoft.Json.dll
