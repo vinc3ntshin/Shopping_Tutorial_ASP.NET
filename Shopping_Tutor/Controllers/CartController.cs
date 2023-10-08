@@ -41,6 +41,8 @@ namespace Shopping_Tutor.Controllers
                 cartItems.Quantity += 1;
             }
             HttpContext.Session.SetJson("Cart", cart);
+
+            TempData["success"] = "Add Item to Cart Successfully";
             return Redirect(Request.Headers["Referer"].ToString());
         }
         public async Task<IActionResult> Decrease(int Id)
@@ -64,6 +66,7 @@ namespace Shopping_Tutor.Controllers
             {
                 HttpContext.Session.SetJson("Cart", cart);
             }
+            TempData["success"] = "Decrease Item quantity to Cart Successfully";
             return RedirectToAction("Index");
         }
         public async Task<IActionResult> Increase(int Id)
@@ -87,6 +90,7 @@ namespace Shopping_Tutor.Controllers
             {
                 HttpContext.Session.SetJson("Cart", cart);
             }
+            TempData["success"] = "Increase Item Quantity to Cart Successfully";
             return RedirectToAction("Index");
         }
         public async Task<IActionResult> Remove(int Id)
@@ -101,11 +105,13 @@ namespace Shopping_Tutor.Controllers
             {
                 HttpContext.Session.SetJson("Cart", cart);
             }
+            TempData["success"] = "Remove Item of Successfully";
             return RedirectToAction("Index");
         }
         public async Task<IActionResult> Clear(int Id)
         {
             HttpContext.Session.Remove("Cart");
+            TempData["success"] = "Clear all    Item of Cart Successfully";
             return RedirectToAction("Index");
         }
     }
