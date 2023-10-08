@@ -67,3 +67,5 @@ D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\bin\Debug\net6.0\runt
 D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\obj\Debug\net6.0\Shopping_Tutor.csproj.CopyComplete
 D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\obj\Debug\net6.0\scopedcss\Areas\Admin\Views\Shared - Copy\_Layout.cshtml.rz.scp.css
+D:\Workspace\ASP.NET\asp.net\Shopping_Tutor\Shopping_Tutor\obj\Debug\net6.0\scopedcss\Areas\Admin\Views\Shared\_Layout.cshtml.rz.scp.css
