@@ -46,3 +46,12 @@
     </form>
     <a asp-action="Index">Back to List Product</a>
 </div>
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_sidebarPartial");
+    }
+    <script src="https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js"></script>
+    <script>
+        CKEDITOR.replace('Description');
+    </script>
+}
