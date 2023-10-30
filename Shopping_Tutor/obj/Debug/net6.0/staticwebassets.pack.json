@@ -37,22 +37,6 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\images\\Macbook.jpg",
-      "PackagePath": "staticwebassets\\images\\Macbook.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\images\\Pc.jpg",
-      "PackagePath": "staticwebassets\\images\\Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\images\\c911f080-26ae-46d4-9ee6-847bccf48fb6_Pc.jpg",
-      "PackagePath": "staticwebassets\\images\\c911f080-26ae-46d4-9ee6-847bccf48fb6_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\images\\gallery1.jpg",
-      "PackagePath": "staticwebassets\\images\\gallery1.jpg"
-    },
-    {
       "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
     },
@@ -315,78 +299,6 @@
     {
       "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\03c50da4-f8d9-4cd0-a0c9-1c3a9ad9b0ba_macbook.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\03c50da4-f8d9-4cd0-a0c9-1c3a9ad9b0ba_macbook.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\1adf8977-7e20-4c41-8169-19f6f8c02fd3_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\1adf8977-7e20-4c41-8169-19f6f8c02fd3_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\28072c21-3f6d-4179-8d69-77ba1e1aa14f_macbook.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\28072c21-3f6d-4179-8d69-77ba1e1aa14f_macbook.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\29d9b806-6cf8-4398-a72c-c0ec3c2b1098_macbook.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\29d9b806-6cf8-4398-a72c-c0ec3c2b1098_macbook.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\3e0b287d-277b-465a-be93-427b488763fb_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\3e0b287d-277b-465a-be93-427b488763fb_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\619d46e7-59fc-4e8f-a3cc-dcbccafa66c9_macbook.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\619d46e7-59fc-4e8f-a3cc-dcbccafa66c9_macbook.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\72f2d3b0-36fd-4db4-abe4-db5e5238c613_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\72f2d3b0-36fd-4db4-abe4-db5e5238c613_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\9028726c-4453-4b59-833c-808099cae46a_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\9028726c-4453-4b59-833c-808099cae46a_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\96eb0d8a-1533-44d2-a219-4f88da169f1c_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\96eb0d8a-1533-44d2-a219-4f88da169f1c_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\9924840f-8270-4f51-90e8-ef4d31172c91_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\9924840f-8270-4f51-90e8-ef4d31172c91_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\a0e397a9-26fc-4fa8-a3b4-9fa1f6bc7a7f_macbook.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\a0e397a9-26fc-4fa8-a3b4-9fa1f6bc7a7f_macbook.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\a4762b48-4615-44df-be49-a0724b5d995b_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\a4762b48-4615-44df-be49-a0724b5d995b_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\a67a59e1-33d8-44a7-a7ce-695792bd634f_macbook.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\a67a59e1-33d8-44a7-a7ce-695792bd634f_macbook.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\ade35698-525e-4745-ac92-7730c7535f0d_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\ade35698-525e-4745-ac92-7730c7535f0d_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\af99e39c-8a8d-48bd-9a46-c5f4a225d705_macbook2.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\af99e39c-8a8d-48bd-9a46-c5f4a225d705_macbook2.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\d0877009-ba1b-4092-8cdd-8485a4de2224_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\d0877009-ba1b-4092-8cdd-8485a4de2224_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\de726ca6-8a22-4ba7-a7c1-72f3d5e456d9_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\de726ca6-8a22-4ba7-a7c1-72f3d5e456d9_Pc.jpg"
-    },
-    {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\e79017e6-4329-4a39-bbe0-b35a3df9032c_Pc.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\e79017e6-4329-4a39-bbe0-b35a3df9032c_Pc.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Shopping_Tutor.Microsoft.AspNetCore.StaticWebAssets.props",

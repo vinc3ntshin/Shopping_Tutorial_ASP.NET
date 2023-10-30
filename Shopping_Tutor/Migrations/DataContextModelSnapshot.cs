@@ -100,7 +100,6 @@ namespace Shopping_Tutor.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Name")
@@ -111,7 +110,6 @@ namespace Shopping_Tutor.Migrations
                         .HasColumnType("decimal(8,2)");
 
                     b.Property<string>("Slug")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
