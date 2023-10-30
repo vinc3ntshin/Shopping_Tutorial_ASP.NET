@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "NJfroZKU0ZXsWsxkbJdSdaBBegZOAhwCUDvCYyzY0Kl3Ca3hn/6pJIE+54W+MFjDamudhQePfpmaH/kSgFINgg==",
+  "dgSpecHash": "Lwdzge08SUuWnWiYojms8vvIQEqZ+svUzMY7pxdGlaeCp1CVnvM9GNFN7LNI5eOlKlIMDZ3+Rmz+z5saRF/Ifw==",
   "success": true,
-  "projectFilePath": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutor\\Shopping_Tutor\\Shopping_Tutor.csproj",
+  "projectFilePath": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\Shopping_Tutor.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hoain\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\hoain\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",

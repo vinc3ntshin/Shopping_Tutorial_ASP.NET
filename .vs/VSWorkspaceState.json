@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Shopping_Tutor",
+    "\\Shopping_Tutor\\Controllers",
+    "\\Shopping_Tutor\\Models",
+    "\\Shopping_Tutor\\Repository",
+    "\\Shopping_Tutor\\Views",
+    "\\Shopping_Tutor\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Shopping_Tutor\\Controllers\\ProductController.cs",
+  "PreviewInSolutionExplorer": false
+}

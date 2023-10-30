@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>@ViewData["title"] - Amin Areas</title>
+    <title>@ViewData["title"] - Admin Areas</title>
     <link href="~/css/bootstrap.min.css" rel="stylesheet">
     <link href="~/css/font-awesome.min.css" rel="stylesheet">
     <link href="~/css/prettyPhoto.css" rel="stylesheet">
@@ -48,7 +48,6 @@
                     </div>
                 </div>
             </div>
-        </div>
         </div><!--/header-middle-->
 
         <div class="header-bottom">
@@ -98,6 +97,7 @@
             </div>
         </div><!--/header-bottom-->
     </header><!--/header-->
+
     <section>
         <div class="container">
             <div class="row">
@@ -108,11 +108,7 @@
     </section>
 
     <footer id="footer">
-        <!--Footer-->
-
     </footer><!--/Footer-->
-
-
 
     <script src="~/js/jquery.js"></script>
     <script src="~/js/bootstrap.min.js"></script>
@@ -120,6 +116,7 @@
     <script src="~/js/price-range.js"></script>
     <script src="~/js/jquery.prettyPhoto.js"></script>
     <script src="~/js/main.js"></script>
-    @await RenderSectionAsync("Scripts", required:false)
+    @await RenderSectionAsync("Scripts", required: false)
+
 </body>
 </html>

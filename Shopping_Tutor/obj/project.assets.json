@@ -2058,11 +2058,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutor\\Shopping_Tutor\\Shopping_Tutor.csproj",
+      "projectUniqueName": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\Shopping_Tutor.csproj",
       "projectName": "Shopping_Tutor",
-      "projectPath": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutor\\Shopping_Tutor\\Shopping_Tutor.csproj",
+      "projectPath": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\Shopping_Tutor.csproj",
       "packagesPath": "C:\\Users\\hoain\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutor\\Shopping_Tutor\\obj\\",
+      "outputPath": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\hoain\\AppData\\Roaming\\NuGet\\NuGet.Config",
