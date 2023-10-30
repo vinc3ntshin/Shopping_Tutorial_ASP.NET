@@ -8,12 +8,11 @@ namespace Shopping_Tutor.Repository.Validation
         {
             if (value is IFormFile file)
             {
-                var extension = Path.GetExtension(file.FileName);//123.jpg
-                string[] extensions = { "jpg", "png", "jpeg" };
-                bool result = extensions.Any(x => extension.EndsWith(x));
-                if (!result)
+                var extension = Path.GetExtension(file.FileName); // Không chuyển phần mở rộng thành chữ thường
+                string[] extensions = { ".jpg", ".png", ".jpeg" }; // Đảm bảo phần mở rộng bắt đầu bằng dấu chấm
+                if (!extensions.Contains(extension))
                 {
-                    return new ValidationResult("Allowed extentions are jpg or png or jpeg");
+                    return new ValidationResult("Chỉ cho phép tệp có phần mở rộng .jpg, .png hoặc .jpeg");
                 }
             }
             return ValidationResult.Success;
