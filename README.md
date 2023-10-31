@@ -7,5 +7,7 @@ DBContext: Cài
 	Microsoft.EntityFrameWorkCore.Tools
 	Newtonsoft.Json
 
+CKEditor:
+Thêm Html.Raw() vào Index()
 	
 		
