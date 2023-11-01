@@ -22,7 +22,7 @@ namespace Shopping_Tutor.Areas.Admin.Controllers
         }
         public IActionResult Create()
         {
-           return View();
+            return View();
         }
         [HttpPost]
         [ValidateAntiForgeryToken]
@@ -31,9 +31,9 @@ namespace Shopping_Tutor.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 //add data
-                category.Slug = category.Name.Replace(" ", "_");
+                category.Slug = category.Name.Replace(" ", "-");
                 //Kiem tra slug trung lap:
-                var slug = await _dataContext.Products.FirstOrDefaultAsync(p => p.Slug == category.Slug);
+                var slug = await _dataContext.Categories.FirstOrDefaultAsync(p => p.Slug == category.Slug);
                 if (slug != null)
                 {
                     ModelState.AddModelError("", "Danh mục đã có trong db");
@@ -60,6 +60,56 @@ namespace Shopping_Tutor.Areas.Admin.Controllers
                 return BadRequest(errorMessage);
             }
             return View(category);
+        }
+        public async Task<IActionResult> Edit(int Id)
+        {
+            CategoryModel category = await _dataContext.Categories.FindAsync(Id);
+            return View(category);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(CategoryModel category)
+        {
+            if (ModelState.IsValid)
+            {
+                //add data
+                category.Slug = category.Name.Replace(" ", "_");
+                //Kiem tra slug trung lap:
+                //var slug = await _dataContext.Products.FirstOrDefaultAsync(p => p.Slug == category.Slug);
+                //if (slug != null)
+                //{
+                //    ModelState.AddModelError("", "Danh mục đã có trong db");
+                //    return View(category);
+                //}
+
+                _dataContext.Update(category);
+                await _dataContext.SaveChangesAsync();
+                TempData["success"] = "Update category success";
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                TempData["error"] = "Model lỗi";
+                List<string> errors = new List<string>();
+                foreach (var value in ModelState.Values)
+                {
+                    foreach (var error in value.Errors)
+                    {
+                        errors.Add(error.ErrorMessage);
+                    }
+                }
+                string errorMessage = string.Join("\n", errors);
+                return BadRequest(errorMessage);
+            }
+            return View(category);
+        }
+        public async Task<IActionResult> Delete(int Id)
+        {
+            CategoryModel category = await _dataContext.Categories.FindAsync(Id);
+            _dataContext.Categories.Remove(category);
+            await _dataContext.SaveChangesAsync();
+            TempData["success"] = "Xóa danh mục thành công";
+            return RedirectToAction("Index");
         }
     }
 }

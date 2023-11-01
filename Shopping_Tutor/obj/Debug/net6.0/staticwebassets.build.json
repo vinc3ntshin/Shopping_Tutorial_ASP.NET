@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qSv+rtiA1D9BroMuu4/NmrioCP+SJVr5OG+qhgbHhDg=",
+  "Hash": "wQ2EhYNM3sY+4rtm84IebVnpae7WOZDIujN41N1fLk8=",
   "Source": "Shopping_Tutor",
   "BasePath": "_content/Shopping_Tutor",
   "Mode": "Default",
@@ -1307,23 +1307,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
-    },
-    {
-      "Identity": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\ee0ae277-fff6-41ad-880a-36be509641ab_macbook.jpg",
-      "SourceId": "Shopping_Tutor",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\",
-      "BasePath": "_content/Shopping_Tutor",
-      "RelativePath": "media/products/ee0ae277-fff6-41ad-880a-36be509641ab_macbook.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\media\\products\\ee0ae277-fff6-41ad-880a-36be509641ab_macbook.jpg"
     }
   ]
 }

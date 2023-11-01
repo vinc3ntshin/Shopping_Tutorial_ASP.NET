@@ -301,10 +301,6 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\media\\products\\ee0ae277-fff6-41ad-880a-36be509641ab_macbook.jpg",
-      "PackagePath": "staticwebassets\\media\\products\\ee0ae277-fff6-41ad-880a-36be509641ab_macbook.jpg"
-    },
-    {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Shopping_Tutor.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
