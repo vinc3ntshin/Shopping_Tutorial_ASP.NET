@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wQ2EhYNM3sY+4rtm84IebVnpae7WOZDIujN41N1fLk8=",
+  "Hash": "y14rzRM89oRjqqz1l8I2IXYDjdKUfGy5DT2Sc23fuF8=",
   "Source": "Shopping_Tutor",
   "BasePath": "_content/Shopping_Tutor",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Shopping_Tutor.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\backend\\js\\site.js",
+      "SourceId": "Shopping_Tutor",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\",
+      "BasePath": "_content/Shopping_Tutor",
+      "RelativePath": "backend/js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\backend\\js\\site.js"
     },
     {
       "Identity": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\css\\animate.css",

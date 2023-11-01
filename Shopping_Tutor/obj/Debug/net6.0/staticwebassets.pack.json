@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Shopping_Tutor.bundle.scp.css"
     },
     {
+      "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\backend\\js\\site.js",
+      "PackagePath": "staticwebassets\\backend\\js\\site.js"
+    },
+    {
       "Id": "D:\\Workspace\\ASP.NET\\asp.net\\Shopping_Tutorial_ASP.NET\\Shopping_Tutor\\wwwroot\\css\\animate.css",
       "PackagePath": "staticwebassets\\css\\animate.css"
     },
