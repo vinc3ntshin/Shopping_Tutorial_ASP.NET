@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shopping_Tutor.Repository;
 
@@ -32,6 +33,17 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "Areas",
     pattern: "{area:exists}/{controller=Product}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "category",
+    pattern: "/category/{Slug?}",
+    defaults: new { Controller = "Category", action = "Index" });
+
+app.MapControllerRoute(
+    name: "brand",
+    pattern: "/brand/{Slug?}",
+    defaults: new { Controller = "Brand", action = "Index" });
+
 
 app.MapControllerRoute(
     name: "default",
