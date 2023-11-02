@@ -20,7 +20,7 @@ builder.Services.AddSession(option =>
 });
 
 builder.Services.AddIdentity<AppUserModel, IdentityRole>()
-    .AddEntityFrameworkStores<DbContext>().AddDefaultTokenProviders();
+    .AddEntityFrameworkStores<DataContext>().AddDefaultTokenProviders();
 
 builder.Services.Configure<IdentityOptions>(options =>
 {
@@ -49,7 +49,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();
+app.UseAuthentication(); 
 
 app.UseAuthorization();
 
