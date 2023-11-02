@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Shopping_Tutor.Models;
 using Shopping_Tutor.Repository;
@@ -6,6 +7,7 @@ using Shopping_Tutor.Repository;
 namespace Shopping_Tutor.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize]
     public class BrandController: Controller
     {
         private readonly DataContext _dataContext;
