@@ -20,21 +20,35 @@ namespace Shopping_Tutor.Controllers
             var userEmail = User.FindFirstValue(ClaimTypes.Email);
             if (userEmail == null)
             {
-                return RedirectToAction("Login","Account");
+                return RedirectToAction("Login", "Account");
             }
             else
             {
-                var odercode = Guid.NewGuid().ToString();
-                var oderItem = new OrderModel();
-                oderItem.OrderCode = odercode;
-                oderItem.UserName = userEmail;
-                oderItem.Status = 1;
-                _dataContext.Add(oderItem);
+                var ordercode = Guid.NewGuid().ToString();
+                var orderItem = new OrderModel();
+                orderItem.OrderCode = ordercode;
+                orderItem.UserName = userEmail;
+                orderItem.Status = 1;
+                _dataContext.Add(orderItem);
                 _dataContext.SaveChanges();
-                TempData["success"] = "Đơn hàng đã được tạo";
-                return RedirectToAction("Index","Cart");
+
+                List<CartItemModel> cartItems = HttpContext.Session.GetJson<List<CartItemModel>>("Cart") ?? new List<CartItemModel>();
+                foreach (var cart in cartItems)
+                {
+                    var orderdetails = new OrderDetails();
+                    orderdetails.UserName = userEmail;
+                    orderdetails.OrderCode = ordercode;
+                    orderdetails.ProductId = cart.ProductId;
+                    orderdetails.Price = cart.Price;
+                    orderdetails.Quantity = cart.Quantity;
+                    _dataContext.Add(orderdetails);
+                    await _dataContext.SaveChangesAsync();
+                }
+                HttpContext.Session.Remove("Cart");
+                TempData["success"] = "Checkout thành công";
+                return RedirectToAction("Index", "Cart");
             }
-            return View();
         }
+
     }
 }
