@@ -1200,6 +1200,118 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\7a3fb949-64bd-4e3c-b27a-ae130d1cd801_macbook.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Shopping_Tutor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Shopping_Tutor</BasePath>
+      <RelativePath>media/products/7a3fb949-64bd-4e3c-b27a-ae130d1cd801_macbook.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\7a3fb949-64bd-4e3c-b27a-ae130d1cd801_macbook.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\a75c75c0-88f9-4e11-a51f-c4e06e0d5db6_Pc.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Shopping_Tutor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Shopping_Tutor</BasePath>
+      <RelativePath>media/products/a75c75c0-88f9-4e11-a51f-c4e06e0d5db6_Pc.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\a75c75c0-88f9-4e11-a51f-c4e06e0d5db6_Pc.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\aa526aa5-c1e1-4cd0-be91-0e57d35f53e9_macbook.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Shopping_Tutor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Shopping_Tutor</BasePath>
+      <RelativePath>media/products/aa526aa5-c1e1-4cd0-be91-0e57d35f53e9_macbook.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\aa526aa5-c1e1-4cd0-be91-0e57d35f53e9_macbook.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\b7ba66ee-a446-4b5d-a4ed-8804929d4557_macbook.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Shopping_Tutor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Shopping_Tutor</BasePath>
+      <RelativePath>media/products/b7ba66ee-a446-4b5d-a4ed-8804929d4557_macbook.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\b7ba66ee-a446-4b5d-a4ed-8804929d4557_macbook.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\bf47709e-431e-435d-b868-1881490a194e_tich-hop-giai-phap-thanh-toan-truc-tuyen-1690962422.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Shopping_Tutor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Shopping_Tutor</BasePath>
+      <RelativePath>media/products/bf47709e-431e-435d-b868-1881490a194e_tich-hop-giai-phap-thanh-toan-truc-tuyen-1690962422.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\bf47709e-431e-435d-b868-1881490a194e_tich-hop-giai-phap-thanh-toan-truc-tuyen-1690962422.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\edcb8bf5-0feb-47a9-9c22-b89fd2554e58_macbook.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Shopping_Tutor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Shopping_Tutor</BasePath>
+      <RelativePath>media/products/edcb8bf5-0feb-47a9-9c22-b89fd2554e58_macbook.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\edcb8bf5-0feb-47a9-9c22-b89fd2554e58_macbook.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\eec7ec63-3b92-4201-820b-85c270785e86_Pc.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>Shopping_Tutor</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Shopping_Tutor</BasePath>
+      <RelativePath>media/products/eec7ec63-3b92-4201-820b-85c270785e86_Pc.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\media\products\eec7ec63-3b92-4201-820b-85c270785e86_Pc.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Shopping_Tutor.bundle.scp.css))">
       <SourceType>Package</SourceType>
       <SourceId>Shopping_Tutor</SourceId>

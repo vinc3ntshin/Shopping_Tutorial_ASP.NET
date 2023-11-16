@@ -4,6 +4,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Shopping_Tutor.Models;
 using Shopping_Tutor.Repository;
+using System.Runtime.CompilerServices;
 
 namespace Shopping_Tutor.Areas.Admin.Controllers
 {
@@ -77,6 +78,9 @@ namespace Shopping_Tutor.Areas.Admin.Controllers
                 }
                 string errorMessage = string.Join("\n", errors);
                 return BadRequest(errorMessage);
+                //Dùng LINQ:
+                //string errors = string.Join("\n", ModelState.Values.SelectMany(value => value.Errors).Select(err=>err.ErrorMessage));
+                //return BadRequest(errors);
             }
             return View(product);
         }
@@ -126,16 +130,18 @@ namespace Shopping_Tutor.Areas.Admin.Controllers
             else
             {
                 TempData["error"] = "Model lỗi";
-                List<string> errors = new List<string>();
-                foreach (var value in ModelState.Values)
-                {
-                    foreach (var error in value.Errors)
-                    {
-                        errors.Add(error.ErrorMessage);
-                    }
-                }
-                string errorMessage = string.Join("\n", errors);
-                return BadRequest(errorMessage);
+                //List<string> errors = new List<string>();
+                //foreach (var value in ModelState.Values)
+                //{
+                //    foreach (var error in value.Errors)
+                //    {
+                //        errors.Add(error.ErrorMessage);
+                //    }
+                //}
+                //string errorMessage = string.Join("\n", errors);
+                //return BadRequest(errorMessage);
+                string errors= string.Join("\n",ModelState.Values.SelectMany(value=>value.Errors).Select(err=>err.ErrorMessage));
+                return BadRequest(errors);
             }
             return View(product);
         }
