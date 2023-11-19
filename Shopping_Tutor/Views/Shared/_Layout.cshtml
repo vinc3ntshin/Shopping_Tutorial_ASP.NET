@@ -91,10 +91,13 @@
                             <ul class="nav navbar-nav">
                                 @if (User.Identity?.IsAuthenticated ?? false)
                                 {
+                                    <li><a asp-area="Admin" asp-controller="Product" asp-action="Index"><i class="fa fa-user"></i> Admin</a></li>
                                     <li><a href="#"><i class="fa fa-user"></i> Account</a></li>
                                     <li><a href="#"><i class="fa fa-star"></i> Wishlist</a></li>
-                                    <li><a href="checkout.html"><i class="fa fa-crosshairs"></i> Checkout</a></li>
-                                    <li><a href="cart.html"><i class="fa fa-shopping-cart"></i> Cart</a></li>
+                                    <li><a asp-controller="Cart"><i class="fa fa-crosshairs"></i> Checkout</a>
+
+                                    </li>
+                                    <li><a asp-controller="Cart"><i class="fa fa-shopping-cart"></i> Cart</a></li>
                                     <li><a asp-controller="Account" asp-action="Logout"><i class="fa fa-sign-out"></i>@User.Identity.Name Logout</a></li>
                                 }
                                 else
@@ -124,7 +127,7 @@
                         </div>
                         <div class="mainmenu pull-left">
                             <ul class="nav navbar-nav collapse navbar-collapse">
-                                <li><a asp-controller="Home" asp-action="Details" class="active">Home</a></li>
+                                <li><a asp-controller="Home" asp-action="Index" class="active">Home</a></li>
                                 <li class="dropdown">
                                     <a asp-controller="Product">Shop<i class="fa fa-angle-down"></i></a>
                                     <ul role="menu" class="sub-menu">

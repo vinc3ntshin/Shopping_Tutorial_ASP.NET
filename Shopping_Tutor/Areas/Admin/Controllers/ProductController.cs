@@ -23,6 +23,7 @@ namespace Shopping_Tutor.Areas.Admin.Controllers
         {
             return View(await _dataContext.Products.OrderByDescending(p => p.Id).Include(p => p.Category).Include(p => p.Brand).ToListAsync());
         }
+
         [HttpGet]
         public IActionResult Create()
         {
@@ -30,6 +31,7 @@ namespace Shopping_Tutor.Areas.Admin.Controllers
             ViewBag.Brands = new SelectList(_dataContext.Brands, "Id", "Name");
             return View();
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(ProductModel product)

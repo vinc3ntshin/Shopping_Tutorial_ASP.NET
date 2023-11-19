@@ -291,8 +291,11 @@ namespace Shopping_Tutor.Migrations
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
-                    b.Property<int>("ProductId")
+                    b.Property<int?>("ProducId")
                         .HasColumnType("int");
+
+                    b.Property<long>("ProductId")
+                        .HasColumnType("bigint");
 
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
@@ -301,6 +304,8 @@ namespace Shopping_Tutor.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("ProducId");
 
                     b.ToTable("OrderDetails");
                 });
@@ -356,7 +361,7 @@ namespace Shopping_Tutor.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal>("Price")
-                        .HasColumnType("decimal(8,2)");
+                        .HasColumnType("decimal(18,2)");
 
                     b.Property<string>("Slug")
                         .HasColumnType("nvarchar(max)");
@@ -419,6 +424,15 @@ namespace Shopping_Tutor.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("Shopping_Tutor.Models.OrderDetails", b =>
+                {
+                    b.HasOne("Shopping_Tutor.Models.ProductModel", "Product")
+                        .WithMany()
+                        .HasForeignKey("ProducId");
+
+                    b.Navigation("Product");
                 });
 
             modelBuilder.Entity("Shopping_Tutor.Models.ProductModel", b =>

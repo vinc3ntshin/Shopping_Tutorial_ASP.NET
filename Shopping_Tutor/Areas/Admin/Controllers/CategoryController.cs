@@ -20,7 +20,7 @@ namespace Shopping_Tutor.Areas.Admin.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            return View(await _dataContext.Categories.OrderByDescending(p => p.Id).ToListAsync());
+            return View(await _dataContext.Categories.OrderBy(p => p.Id).ToListAsync());
         }
 		[HttpGet]
 		public IActionResult Create()
